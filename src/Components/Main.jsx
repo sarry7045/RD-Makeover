@@ -7,7 +7,8 @@ const Main = () => {
       <header class="header" id="header">
         <div class="navbar">
           <div class="logo">
-            <img src="img/logo.svg" alt="img" />
+            {/* <img src="img/logo.svg" alt="img" /> */}
+            <h3>RD-Makeover</h3>
           </div>
           <nav class="nav-menu" id="nav-menu">
             <ul class="nav-list">
