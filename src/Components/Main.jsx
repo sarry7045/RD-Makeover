@@ -1,6 +1,5 @@
 import React from "react";
 import "../Components/Main.css";
-import Typewriter from "typewriter-effect";
 import Zoom from "react-reveal/Zoom";
 
 const Main = () => {
@@ -9,13 +8,12 @@ const Main = () => {
       <header className="header" id="header">
         <div className="navbar">
           <div className="logo">
-            {/* <img src="img/logo.svg" alt="img" /> */}
-            <h2>RD-Makeover</h2>
+            <img src="/img/logo.svg" />
           </div>
           <nav className="nav-menu" id="nav-menu">
             <ul className="nav-list">
               <li>
-                <a href="/" className="nav-link active">
+                <a href="#" className="nav-link active">
                   home
                 </a>
               </li>
@@ -51,53 +49,45 @@ const Main = () => {
           </div>
         </div>
       </header>
-      <section className="home">
-        <div className="container">
-          <div className="home-img">
-            <img src="img/home-img.png" alt="img" />
+      {/* Start Home Section */}
+      
+        <section className="home">
+          <div className="container">
+            <div className="home-img">
+              <img src="/img/home-img.png" />
+              {/* <img src="/img/mainpage.jpg" /> */}
+            </div>
+            <div className="home-content">
+              <h1>
+                Your big day
+                <br />
+                <span>in style</span>
+              </h1>
+              <p>
+                Come see our bride's corner and take the opportunity to schedule
+                your date.
+              </p>
+              <a href="#" className="btn btn-outline">
+                <i className="fab fa-whatsapp"></i>
+                Schedule your time
+              </a>
+            </div>
           </div>
-          <div className="home-content">
-            <h1>
-              {" "}
-              <Typewriter
-                onInit={(typewriter) => {
-                  typewriter
-                    .start()
-                    .typeString(`Your big day <br/><span> in style</span>`)
-                    .pauseFor(500);
-                  // .deleteAll()
-
-                  // .typeString(`Your big day <br/><span> in style</span>`);
-                }}
-              />
-            </h1>
-            {/* <h1>
-              Your big day
-              <br />
-              <span>in style</span>
-            </h1> */}
-            <p>
-              Come see our bride's corner and take the opportunity to schedule
-              your date.
-            </p>
-            <a href="tel:+91 9004043671" className="btn btn-outline">
-              <i className="fa fa-phone"></i>
-              Schedule your time
-            </a>
-          </div>
-        </div>
-      </section>
+        </section>
+  
+      {/* End Home Section */}
+      {/* Start About Section */}
       <Zoom>
         <section className="about" id="about">
           <div className="container">
             <div className="section-title">
               <h1>our story</h1>
-              <span>RD-Makeover</span>
+              <span>studio hair</span>
             </div>
             <div className="about-detail">
               <div className="about-detail-content">
                 <div className="about-img">
-                  <img src="img/about-img.jpg" alt="img" />
+                  <img src="/img/about-img.jpg" />
                 </div>
                 <div className="about-description">
                   <p>
@@ -118,8 +108,12 @@ const Main = () => {
             </div>
           </div>
         </section>
+      </Zoom>
+      {/* End About Section */}
+      {/* Start Services Section */}
+      <Zoom>
         <section className="services" id="services">
-          <div className="services-content">
+          <div className="container">
             <div className="section-title">
               <h1>services</h1>
               <span>what we do</span>
@@ -127,49 +121,49 @@ const Main = () => {
             <div className="services-content-description">
               <div className="box">
                 <div className="inner">
-                  <img src="img/services/manicure.png" alt="img" />
+                  <img src="/img/services/manicure.png" />
                   <p>manicure</p>
                 </div>
               </div>
               <div className="box">
                 <div className="inner">
-                  <img src="img/services/pedicure.png" alt="img" />
+                  <img src="/img/services/pedicure.png" />
                   <p>padicure</p>
                 </div>
               </div>
               <div className="box">
                 <div className="inner">
-                  <img src="img/services/makeup.png" alt="img" />
+                  <img src="/img/services/makeup.png" />
                   <p>makeup</p>
                 </div>
               </div>
               <div className="box">
                 <div className="inner">
-                  <img src="img/services/hairstyle.png" alt="img" />
+                  <img src="/img/services/hairstyle.png" />
                   <p>hairstyle</p>
                 </div>
               </div>
               <div className="box">
                 <div className="inner">
-                  <img src="img/services/haircut.png" alt="img" />
+                  <img src="/img/services/haircut.png" />
                   <p>haircut</p>
                 </div>
               </div>
               <div className="box">
                 <div className="inner">
-                  <img src="img/services/eyebrow design.png" alt="img" />
+                  <img src="/img/services/eyebrow design.png" />
                   <p>eyebrow design</p>
                 </div>
               </div>
               <div className="box">
                 <div className="inner">
-                  <img src="img/services/waxing.png" alt="img" />
+                  <img src="/img/services/waxing.png" />
                   <p>waxing</p>
                 </div>
               </div>
               <div className="box">
                 <div className="inner">
-                  <img src="img/services/skin cleansing.png" alt="img" />
+                  <img src="/img/services/skin cleansing.png" />
                   <p>skin cleansing</p>
                 </div>
               </div>
@@ -177,6 +171,8 @@ const Main = () => {
           </div>
         </section>
       </Zoom>
+      {/* End Services Section */}
+      {/* Start Package Section */}
       <Zoom>
         <section className="package" id="package">
           <div className="section-title">
@@ -285,7 +281,7 @@ const Main = () => {
                     <span>table fruit</span>
                   </p>
                 </div>
-                <button className="btn">&#x20B9; 1000</button>
+                <button className="btn">&#x20B9; 2000</button>
               </div>
             </div>
             <div className="card">
@@ -395,156 +391,64 @@ const Main = () => {
           </div>
         </section>
       </Zoom>
+      {/* End Package Section */}
+      {/*  Start Gallery Section  */}
       <Zoom>
         <section className="gallery" id="gallery">
           <div className="gallery-content">
             <div className="section-title">
               <h1>gallery</h1>
-              <span>The princesses of our instagram</span>
+              <span>the princesses of our instagram</span>
             </div>
             <div className="gallery-list-img">
               <div className="gallery-img">
-                <img src="img/img-insta/photo1.png" alt="img" />
+                <img src="/img/img-insta/photo1.png" />
               </div>
               <div className="gallery-img">
-                <img src="img/img-insta/photo2.png" alt="img" />
+                <img src="/img/img-insta/photo2.png" width={250} />
               </div>
               <div className="gallery-img">
-                <img src="img/img-insta/photo3.png" alt="img" />
+                <img src="/img/img-insta/photo3.png" height={250} />
               </div>
               <div className="gallery-img">
-                <img src="img/img-insta/photo4.png" alt="img" />
+                <img src="/img/img-insta/photo4.png" />
               </div>
               <div className="gallery-img">
-                <img src="img/img-insta/photo5.png" alt="img" />
+                <img src="/img/img-insta/photo5.png" />
               </div>
               <div className="gallery-img">
-                <img src="img/img-insta/photo6.png" alt="img" />
+                <img src="/img/img-insta/photo6.png" />
               </div>
               <div className="gallery-img">
-                <img src="img/img-insta/photo7.png" alt="img" />
+                <img src="/img/img-insta/photo7.png" />
               </div>
               <div className="gallery-img">
-                <img src="img/img-insta/photo8.png" alt="img" />
+                <img src="/img/img-insta/photo8.png" />
               </div>
             </div>
-            {/* <button className="btn">see more</button> */}
+            <button className="btn">see more</button>
           </div>
         </section>
       </Zoom>
-      {/* 
-      <section className="testimonials">
-        <div className="testimonials-content">
-          <div className="section-title">
-            <h1>testimonials</h1>
-            <span>see what our customer say</span>
-          </div>
-          <div className="testimonials-card">
-            <div className="testimonials-item">
-              <div className="testimonials-img">
-                <img src="img/testimonials/testimonials1.png" alt="img" />
-              </div>
-              <div className="testimonials-box">
-                <div className="testimonials-name">
-                  <h1>Celaena</h1>
-                  <i className="fas fa-star"></i>
-                  <i className="fas fa-star"></i>
-                  <i className="fas fa-star"></i>
-                  <i className="fas fa-star"></i>
-                  <i className="fas fa-star"></i>
-                </div>
-                <div className="testimonials-description">
-                  <p>
-                    Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-                    Dolor earum culpa eius, libero reprehenderit maiores.
-                  </p>
-                </div>
-              </div>
-            </div>
-            <div className="testimonials-item">
-              <div className="testimonials-img">
-                <img src="img/testimonials/testimonials2.png" alt="img" />
-              </div>
-              <div className="testimonials-box">
-                <div className="testimonials-name">
-                  <h1>Aelin</h1>
-                  <i className="fas fa-star"></i>
-                  <i className="fas fa-star"></i>
-                  <i className="fas fa-star"></i>
-                  <i className="fas fa-star"></i>
-                  <i className="fas fa-star"></i>
-                </div>
-                <div className="testimonials-description">
-                  <p>
-                    Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-                    Dolor earum culpa eius, libero reprehenderit maiores.
-                  </p>
-                </div>
-              </div>
-            </div>
-            <div className="testimonials-item">
-              <div className="testimonials-img">
-                <img src="img/testimonials/testimonials1.png" alt="img" />
-              </div>
-              <div className="testimonials-box">
-                <div className="testimonials-name">
-                  <h1>Luciana</h1>
-                  <i className="fas fa-star"></i>
-                  <i className="fas fa-star"></i>
-                  <i className="fas fa-star"></i>
-                  <i className="fas fa-star"></i>
-                  <i className="fas fa-star"></i>
-                </div>
-                <div className="testimonials-description">
-                  <p>
-                    Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-                    Dolor earum culpa eius, libero reprehenderit maiores.
-                  </p>
-                </div>
-              </div>
-            </div>
-            <div className="testimonials-item">
-              <div className="testimonials-img">
-                <img src="img/testimonials/testimonials2.png" alt="img" />
-              </div>
-              <div className="testimonials-box">
-                <div className="testimonials-name">
-                  <h1>Patricia</h1>
-                  <i className="fas fa-star"></i>
-                  <i className="fas fa-star"></i>
-                  <i className="fas fa-star"></i>
-                  <i className="fas fa-star"></i>
-                  <i className="fas fa-star"></i>
-                </div>
-                <div className="testimonials-description">
-                  <p>
-                    Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-                    Dolor earum culpa eius, libero reprehenderit maiores.
-                  </p>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section> */}
+      {/* End Gallery Section */}
+      {/* Start Footer Section */}
       <Zoom>
         <footer className="footer" id="contact">
           <div className="footer-list">
             <div className="footer-data">
               <h1>
-                <a href="/">
-                  {/* <img src="img/logo.svg" alt="img" /> */}
-                  <h2>RD-Makeover</h2>
+                <a href="">
+                  <img src="/img/logo.svg" />
                 </a>
               </h1>
               <div className="footer-data-social">
-                <a href="/">
+                <a href="">
                   <i className="fab fa-facebook"></i>
                 </a>
-                <a href="/">
+                <a href="">
                   <i className="fab fa-instagram"></i>
                 </a>
-                <a href="/">
+                <a href="">
                   <i className="fab fa-twitter"></i>
                 </a>
               </div>
@@ -552,32 +456,29 @@ const Main = () => {
             <div className="footer-data">
               <h2>address</h2>
               <p>
-                Yagnik Nagar, Amboli, Andheri(West) 400058
-                <br />
-                Mumbai, Maharashtra
+                Alharm - St 26
+                <br /> Giza - Egypt
               </p>
             </div>
             <div className="footer-data">
               <h2>We Opened</h2>
               <p>
-                Monday To Sunday
-                <br /> From 09:00am To 08.00pm
+                Monday To Friday <br /> From 09:00 To 18:00
               </p>
             </div>
             <div className="footer-data">
               <h2>Contact</h2>
-              <p>+91 9004043671</p>
+              <p>(20) 1111-222-333</p>
+              <p>(20) 4444-555-666</p>
             </div>
           </div>
           <div className="copy">
             <p>&copy; All Rights Reserved</p>
-            <span>
-              Created by 🤎{" "}
-              <a href="https://surajyadav.vercel.app/">Suraj Yadav</a>
-            </span>
+            <span>Created by 🤎 Web Trend</span>
           </div>
         </footer>
       </Zoom>
+      {/*  End Footer Section */}{" "}
     </>
   );
 };
