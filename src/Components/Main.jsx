@@ -8,7 +8,8 @@ const Main = () => {
       <header className="header" id="header">
         <div className="navbar">
           <div className="logo">
-            <img src="/img/logo.svg" />
+            {/* <img src="/img/logo.svg" /> */}
+            <h2>RD-Makeovers</h2>
           </div>
           <nav className="nav-menu" id="nav-menu">
             <ul className="nav-list">
@@ -50,31 +51,29 @@ const Main = () => {
         </div>
       </header>
       {/* Start Home Section */}
-      
-        <section className="home">
-          <div className="container">
-            <div className="home-img">
-              <img src="/img/home-img.png" />
-              {/* <img src="/img/mainpage.jpg" /> */}
-            </div>
-            <div className="home-content">
-              <h1>
-                Your big day
-                <br />
-                <span>in style</span>
-              </h1>
-              <p>
-                Come see our bride's corner and take the opportunity to schedule
-                your date.
-              </p>
-              <a href="#" className="btn btn-outline">
-                <i className="fab fa-whatsapp"></i>
-                Schedule your time
-              </a>
-            </div>
+      <section className="home">
+        <div className="container">
+          <div className="home-img">
+            <img src="/img/home-img.png" />
+            {/* <img src="/img/mainpage.jpg" /> */}
           </div>
-        </section>
-  
+          <div className="home-content">
+            <h1>
+              Your big day
+              <br />
+              <span>in style</span>
+            </h1>
+            <p>
+              Come see our bride's corner and take the opportunity to schedule
+              your date.
+            </p>
+            <a href="tel: 9004043671" className="btn btn-outline">
+              <i className="fa fa-phone"></i>
+              Schedule your time
+            </a>
+          </div>
+        </div>
+      </section>
       {/* End Home Section */}
       {/* Start About Section */}
       <Zoom>
@@ -82,27 +81,38 @@ const Main = () => {
           <div className="container">
             <div className="section-title">
               <h1>our story</h1>
-              <span>studio hair</span>
+              <span>RD-Makeovers</span>
             </div>
             <div className="about-detail">
               <div className="about-detail-content">
                 <div className="about-img">
-                  <img src="/img/about-img.jpg" />
+                  <img src="/img/img-insta/11.jpeg" />
                 </div>
                 <div className="about-description">
                   <p>
-                    Lorem ipsum dolor sit amet consectetur adipisicing
-                    elit.Velit possimus a sint
+                    Freelance Makeup artist and Hairstylist Based in Mumbai. 
                   </p>
+                  <br />
                   <p>
-                    Obcaecati porro accusamus iusto rem aperiam. Lorem ipsum
-                    dolor sit amet consectetur adipisicing elit. Velit possimus
-                    a sint
+                    Specialized in Bridal and occasion Makeup, using best
+                    quality products.
                   </p>
+                  <br />
                   <p>
-                    Eligendi nostrum architecto quibusdam. Neque odio enim quasi
-                    ad culpa similique quas.
+                    RD Makeovers Makeup & Hair styling in Mumbai offer best in
+                    Bridal Makeup, Party, Occasion, and Fashion Makeup in Normal
+                    and HD. The services are available all over India and the
+                    World.
                   </p>
+
+                  {/* <p>
+                    Call 9004043671 or send an Email on
+                    rdmakeovers2022@gmail.com to avail the best in makeup
+                    services! 
+                  </p>
+                  <br/> */}
+                  <br />
+                  <p>We guarantee you will look your best ever!</p>
                 </div>
               </div>
             </div>
@@ -402,31 +412,31 @@ const Main = () => {
             </div>
             <div className="gallery-list-img">
               <div className="gallery-img">
-                <img src="/img/img-insta/photo1.png" />
+                <img src="/img/img-insta/photo1.png" alt="Img" />
               </div>
               <div className="gallery-img">
-                <img src="/img/img-insta/photo2.png" width={250} />
+                <img src="/img/img-insta/photo2.png" alt="Img" />
               </div>
               <div className="gallery-img">
-                <img src="/img/img-insta/photo3.png" height={250} />
+                <img src="/img/img-insta/photo3.png" alt="Img" />
               </div>
               <div className="gallery-img">
-                <img src="/img/img-insta/photo4.png" />
+                <img src="/img/img-insta/photo4.png" alt="Img" />
               </div>
               <div className="gallery-img">
-                <img src="/img/img-insta/photo5.png" />
+                <img src="/img/img-insta/photo5.png" alt="Img" />
               </div>
               <div className="gallery-img">
-                <img src="/img/img-insta/photo6.png" />
+                <img src="/img/img-insta/photo6.png" alt="Img" />
               </div>
               <div className="gallery-img">
-                <img src="/img/img-insta/photo7.png" />
+                <img src="/img/img-insta/photo7.png" alt="Img" />
               </div>
               <div className="gallery-img">
-                <img src="/img/img-insta/photo8.png" />
+                <img src="/img/img-insta/photo8.png" alt="Img" />
               </div>
             </div>
-            <button className="btn">see more</button>
+            {/* <button className="btn">see more</button> */}
           </div>
         </section>
       </Zoom>
@@ -438,43 +448,63 @@ const Main = () => {
             <div className="footer-data">
               <h1>
                 <a href="">
-                  <img src="/img/logo.svg" />
+                  {/* <img src="/img/logo.svg" /> */}
+                  <h2>RD-Makeovers</h2>
                 </a>
               </h1>
               <div className="footer-data-social">
-                <a href="">
+                {/* <a href="">
                   <i className="fab fa-facebook"></i>
-                </a>
-                <a href="">
+                </a> */}
+                <a
+                  href="https://www.instagram.com/invites/contact/?i=10jbx16cgw3o6&utm_content=mxqgqk5"
+                  target="_blank"
+                >
                   <i className="fab fa-instagram"></i>
                 </a>
-                <a href="">
+                {/* <a href="">
                   <i className="fab fa-twitter"></i>
-                </a>
+                </a> */}
               </div>
             </div>
             <div className="footer-data">
               <h2>address</h2>
               <p>
-                Alharm - St 26
-                <br /> Giza - Egypt
+                Yagnik Nagar, Abdul Pada, Near Network Building, Amboli, Andheri
+                (W) 400058
               </p>
             </div>
             <div className="footer-data">
               <h2>We Opened</h2>
               <p>
-                Monday To Friday <br /> From 09:00 To 18:00
+                Everyday <br /> From 10.00 am To 8.00 pm
               </p>
             </div>
             <div className="footer-data">
               <h2>Contact</h2>
-              <p>(20) 1111-222-333</p>
-              <p>(20) 4444-555-666</p>
+              <p>
+                <a style={{ textDecoration: "none" }} href="tel: 9004043671">
+                  <p> +91 9004043671</p>
+                </a>
+              </p>
+              <p>
+                <a
+                  href="mailto: rdmakeovers2022@gmail.com"
+                  style={{ textDecoration: "none" }}
+                >
+                  rdmakeovers2022@gmail.com
+                </a>
+              </p>
             </div>
           </div>
           <div className="copy">
             <p>&copy; All Rights Reserved</p>
-            <span>Created by 🤎 Web Trend</span>
+            <span>
+              Created by 🤎{" "}
+              <a href="https://surajyadav.vercel.app/" target="_blank">
+                Suraj Yadav
+              </a>
+            </span>
           </div>
         </footer>
       </Zoom>
