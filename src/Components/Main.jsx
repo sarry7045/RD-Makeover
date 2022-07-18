@@ -1,10 +1,25 @@
 import React from "react";
 import "../Components/Main.css";
 import Zoom from "react-reveal/Zoom";
+import { Helmet } from "react-helmet";
 
 const Main = () => {
   return (
     <>
+      <Helmet>
+        <meta charSet="utf-8" />
+        <title>RD-MakeOver | Makeup Artist | Hairstylist</title>
+        <link rel="canonical" href="https://www.rdmakeovers.com" />
+        <meta
+          name="description"
+          content="Professional Makeup artist and Hairstylist"
+        />
+        <meta
+          name="keywords"
+          content="rd makeovers, rd makeovers mumbai,makeup,hair artist, makeup artist, hair artist, haircut, eyebrow design, makeup artist mumabi, hairstylist mumbai, hair style for girl  "
+        />
+        <meta property="og:site_name" content="RD Makeover" />
+      </Helmet>
       <header className="header" id="header">
         <div className="navbar">
           <div className="logo">
@@ -54,7 +69,7 @@ const Main = () => {
       <section className="home">
         <div className="container">
           <div className="home-img">
-            <img src="/img/home-img.png" />
+            <img src="/img/home-img.png" alt="img" />
             {/* <img src="/img/mainpage.jpg" /> */}
           </div>
           <div className="home-content">
@@ -86,7 +101,7 @@ const Main = () => {
             <div className="about-detail">
               <div className="about-detail-content">
                 <div className="about-img">
-                  <img src="/img/img-insta/11.jpeg" />
+                  <img src="/img/img-insta/11.jpeg" alt="img" />
                 </div>
                 <div className="about-description">
                   <p>
@@ -131,49 +146,49 @@ const Main = () => {
             <div className="services-content-description">
               <div className="box">
                 <div className="inner">
-                  <img src="/img/services/manicure.png" />
+                  <img src="/img/services/manicure.png" alt="img" />
                   <p>manicure</p>
                 </div>
               </div>
               <div className="box">
                 <div className="inner">
-                  <img src="/img/services/pedicure.png" />
+                  <img src="/img/services/pedicure.png" alt="img" />
                   <p>padicure</p>
                 </div>
               </div>
               <div className="box">
                 <div className="inner">
-                  <img src="/img/services/makeup.png" />
+                  <img src="/img/services/makeup.png" alt="img" />
                   <p>makeup</p>
                 </div>
               </div>
               <div className="box">
                 <div className="inner">
-                  <img src="/img/services/hairstyle.png" />
+                  <img src="/img/services/hairstyle.png" alt="img" />
                   <p>hairstyle</p>
                 </div>
               </div>
               <div className="box">
                 <div className="inner">
-                  <img src="/img/services/haircut.png" />
+                  <img src="/img/services/haircut.png" alt="img"/>
                   <p>haircut</p>
                 </div>
               </div>
               <div className="box">
                 <div className="inner">
-                  <img src="/img/services/eyebrow design.png" />
+                  <img src="/img/services/eyebrow design.png" alt="img" />
                   <p>eyebrow design</p>
                 </div>
               </div>
               <div className="box">
                 <div className="inner">
-                  <img src="/img/services/waxing.png" />
+                  <img src="/img/services/waxing.png" alt="img" />
                   <p>waxing</p>
                 </div>
               </div>
               <div className="box">
                 <div className="inner">
-                  <img src="/img/services/skin cleansing.png" />
+                  <img src="/img/services/skin cleansing.png" alt="img" />
                   <p>skin cleansing</p>
                 </div>
               </div>
@@ -447,7 +462,7 @@ const Main = () => {
           <div className="footer-list">
             <div className="footer-data">
               <h1>
-                <a href="">
+                <a href="/">
                   {/* <img src="/img/logo.svg" /> */}
                   <h2>RD-Makeovers</h2>
                 </a>
@@ -459,6 +474,7 @@ const Main = () => {
                 <a
                   href="https://www.instagram.com/invites/contact/?i=10jbx16cgw3o6&utm_content=mxqgqk5"
                   target="_blank"
+                  rel="noreferrer"
                 >
                   <i className="fab fa-instagram"></i>
                 </a>
@@ -501,7 +517,7 @@ const Main = () => {
             <p>&copy; All Rights Reserved</p>
             <span>
               Created by 🤎{" "}
-              <a href="https://surajyadav.vercel.app/" target="_blank">
+              <a href="https://surajyadav.vercel.app/" target="_blank" rel="noreferrer">
                 Suraj Yadav
               </a>
             </span>
