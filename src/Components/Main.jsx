@@ -64,7 +64,37 @@ const Main = () => {
             <i className="fas fa-bars"></i>
           </div>
         </div>
+
+        <div class="wrapper" id="nav-menu">
+          <nav>
+            <a href="#" class="logo">
+              AAA
+            </a>
+            <ul>
+              <li>
+                <a href="#">Home</a>
+              </li>
+              <li>
+                <a href="#about">About</a>
+              </li>
+              <li>
+                <a href="#services">Services</a>
+              </li>
+              <li>
+                <a href="#package">Package</a>
+              </li>
+              <li>
+                <a href="#galery">Gallery</a>
+              </li>
+              <li>
+                <a href="contact">Contact</a>
+              </li>
+            </ul>
+          </nav>
+        </div>
       </header>
+      {/* Nav */}
+      {/* Nav */}
       {/* Start Home Section */}
       <section className="home">
         <div className="container">
@@ -170,7 +200,7 @@ const Main = () => {
               </div>
               <div className="box">
                 <div className="inner">
-                  <img src="/img/services/haircut.png" alt="img"/>
+                  <img src="/img/services/haircut.png" alt="img" />
                   <p>haircut</p>
                 </div>
               </div>
@@ -517,13 +547,101 @@ const Main = () => {
             <p>&copy; All Rights Reserved</p>
             <span>
               Created by 🤎{" "}
-              <a href="https://surajyadav.vercel.app/" target="_blank" rel="noreferrer">
+              <a
+                href="https://surajyadav.vercel.app/"
+                target="_blank"
+                rel="noreferrer"
+              >
                 Suraj Yadav
               </a>
             </span>
           </div>
         </footer>
       </Zoom>
+      {/* <main class="gallery gallery__content--flow">
+        <figure>
+            <img src="https://cdn.pixabay.com/photo/2016/02/19/15/46/labrador-retriever-1210559__340.jpg"
+                alt="A light brown, long-haired chihuahua sitting next to three rubber duckies. "
+                title="Photo by Giacomo Lucarini for Unsplash"/>
+            <figcaption class="header__caption" role="presentation">
+                <h1 class="title title--primary">Dog: Miss Sunshine</h1>
+                <h2 class="title title--secondary">6 years old</h2>
+            </figcaption>
+        </figure>
+
+        <figure>
+            <img src="https://cdn.pixabay.com/photo/2018/03/27/17/25/cat-3266673__340.jpg"
+                alt="A tabby kitten with green eyes. " title="Photo by Sergey Semin for Unsplash"/>
+            <figcaption class="header__caption" role="presentation">
+                <h1 class="title title--primary">Kitten: Reese</h1>
+                <h2 class="title title--secondary">8 weeks old</h2>
+            </figcaption>
+        </figure>
+
+        <figure>
+            <img src="img/mainpage.jpg"
+                alt="A light brown puppy standing on a white and tan woven pet bed. "
+                title="Photo by Sergey Semin for Unsplash"/>
+            <figcaption class="header__caption" role="presentation">
+                <h1 class="title title--primary">Bunny: Sofia</h1>
+                <h2 class="title title--secondary">3 years old</h2>
+            </figcaption>
+        </figure>
+        
+        <figure>
+            <img src="https://cdn.pixabay.com/photo/2014/11/30/14/11/cat-551554__340.jpg"
+                alt="A light brown puppy standing on a white and tan woven pet bed. "
+                title="Photo by Sergey Semin for Unsplash"/>
+            <figcaption class="header__caption" role="presentation">
+                <h1 class="title title--primary">Kitten: Katie</h1>
+                <h2 class="title title--secondary">1 years old</h2>
+            </figcaption>
+        </figure>
+
+        <figure>
+            <img src="https://cdn.pixabay.com/photo/2017/09/25/13/12/cocker-spaniel-2785074__480.jpg"
+                alt="A light brown puppy standing on a white and tan woven pet bed. "
+                title="Photo by Sergey Semin for Unsplash"/>
+            <figcaption class="header__caption" role="presentation">
+                <h1 class="title title--primary">Puppy: Bruce</h1>
+                <h2 class="title title--secondary">10 weeks old</h2>
+            </figcaption>
+        </figure>
+        <figure>
+            <img src="https://cdn.pixabay.com/photo/2016/11/21/16/59/animal-1846462__340.jpg"
+                alt="A light brown puppy standing on a white and tan woven pet bed. "
+                title="Photo by Sergey Semin for Unsplash"/>
+            <figcaption class="header__caption" role="presentation">
+                <h1 class="title title--primary">Bunny: Jeff</h1>
+                <h2 class="title title--secondary">2 years old</h2>
+            </figcaption>
+        </figure>
+    </main> */}
+      {/* try 2 */}
+      {/* <div class="cards-grid">
+         <div class="card">
+            <img class="card__icon" src="img/img-insta/photo1.png" alt="ux-design"/>
+            <div class="card__body">
+               <h4 class="card__head">UI/UX Design</h4>
+               <p class="card__content">Landing Pages, User Flow, Wireframing, Prototyping, Mobile App Design, Web App</p>
+            </div>
+         </div>
+         <div class="card">
+            <img class="card__icon" src="img/img-insta/photo1.png" alt="development"/>
+            <div class="card__body">
+               <h4 class="card__head">UI/UX Design</h4>
+               <p class="card__content">Landing Pages, User Flow, Wireframing, Prototyping, Mobile App Design, Web App</p>
+            </div>
+         </div>
+         <div class="card">
+            <img class="card__icon" src="img/img-insta/photo1.png" alt="brand"/>
+            <div class="card__body">
+               <h4 class="card__head">UI/UX Design</h4>
+               <p class="card__content">Landing Pages, User Flow, Wireframing, Prototyping, Mobile App Design, Web App</p>
+            </div>
+         </div>
+      </div> */}
+      {/* try 2 */}
       {/*  End Footer Section */}{" "}
     </>
   );
