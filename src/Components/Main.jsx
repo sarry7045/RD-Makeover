@@ -8,15 +8,15 @@ const Main = () => {
     <>
       <Helmet>
         <meta charSet="utf-8" />
-        <title>RD-MakeOver | Makeup Artist | Hairstylist</title>
+        <title>RD-Makeovers | Makeup Artist | Hairstylist</title>
         <link rel="canonical" href="https://www.rdmakeovers.com" />
         <meta
           name="description"
-          content="Professional Makeup artist and Hairstylist"
+          content="Professional Makeup artist and Hairstylist."
         />
         <meta
           name="keywords"
-          content="rd makeovers, rd makeovers mumbai,makeup,hair artist, makeup artist, hair artist, haircut, eyebrow design, makeup artist mumabi, hairstylist mumbai, hair style for girl  "
+          content="rd makeovers, rd makeovers mumbai, makeup, hair artist, makeup artist, hair artist, haircut, eyebrow design, makeup artist mumbai, hairstylist mumbai, hair style for girls"
         />
         <meta property="og:site_name" content="RD Makeover" />
       </Helmet>
@@ -64,37 +64,7 @@ const Main = () => {
             <i className="fas fa-bars"></i>
           </div>
         </div>
-
-        <div class="wrapper" id="nav-menu">
-          <nav>
-            <a href="#" class="logo">
-              AAA
-            </a>
-            <ul>
-              <li>
-                <a href="#">Home</a>
-              </li>
-              <li>
-                <a href="#about">About</a>
-              </li>
-              <li>
-                <a href="#services">Services</a>
-              </li>
-              <li>
-                <a href="#package">Package</a>
-              </li>
-              <li>
-                <a href="#galery">Gallery</a>
-              </li>
-              <li>
-                <a href="contact">Contact</a>
-              </li>
-            </ul>
-          </nav>
-        </div>
       </header>
-      {/* Nav */}
-      {/* Nav */}
       {/* Start Home Section */}
       <section className="home">
         <div className="container">
@@ -150,12 +120,6 @@ const Main = () => {
                     World.
                   </p>
 
-                  {/* <p>
-                    Call 9004043671 or send an Email on
-                    rdmakeovers2022@gmail.com to avail the best in makeup
-                    services! 
-                  </p>
-                  <br/> */}
                   <br />
                   <p>We guarantee you will look your best ever!</p>
                 </div>
@@ -173,7 +137,7 @@ const Main = () => {
               <h1>services</h1>
               <span>what we do</span>
             </div>
-            <div className="services-content-description">
+            {/* <div className="services-content-description">
               <div className="box">
                 <div className="inner">
                   <img src="/img/services/manicure.png" alt="img" />
@@ -222,7 +186,79 @@ const Main = () => {
                   <p>skin cleansing</p>
                 </div>
               </div>
+            </div> */}
+            {/* try 2 */}
+            <div className="service-provide">
+              {" "}
+              <div class="cardss-grid" style={{ marginTop: "15px" }}>
+                <div class="cardss">
+                  <img
+                    class="cardss__icon"
+                    src="img/img-insta/photo6.png"
+                    alt="ux-design"
+                  />
+                  <div class="cardss__body">
+                    <h4 class="cardss__head">All types of Makeups</h4>
+                  </div>
+                </div>
+                <div class="cardss">
+                  <img
+                    class="cardss__icon"
+                    src="img/img-insta/photo2.png"
+                    alt="development"
+                  />
+                  <div class="cardss__body">
+                    <h4 class="cardss__head">All types of Hairstyles</h4>
+                  </div>
+                </div>
+                <div class="cardss">
+                  <img
+                    class="cardss__icon"
+                    src="img/img-insta/photo4.png"
+                    alt="brand"
+                  />
+                  <div class="cardss__body">
+                    <h4 class="cardss__head">Haircut</h4>
+                  </div>
+                </div>
+              </div>
+              <div class="cardss-grid">
+                <div class="cardss">
+                  <img
+                    style={{ height: "225px", widht: "220px" }}
+                    class="cardss__icon"
+                    src="img/img-insta/14.jpg"
+                    alt="ux-design"
+                  />
+                  <div class="cardss__body">
+                    <h4 class="cardss__head">Eyebrow Design</h4>
+                  </div>
+                </div>
+                <div class="cardss">
+                  <img
+                    class="cardss__icon"
+                    src="img/img-insta/photo8.png"
+                    alt="development"
+                  />
+                  <div class="cardss__body">
+                    <h4 class="cardss__head">Skin Cleansing</h4>
+                  </div>
+                </div>
+                <div class="cardss">
+                  <img
+                    style={{ height: "220px", widht: "220px" }}
+                    class="cardss__icon"
+                    src="img/img-insta/21.jpg"
+                    alt="brand"
+                  />
+                  <div class="cardss__body">
+                    <h4 class="cardss__head">Manicure</h4>
+                  </div>
+                </div>
+              </div>
             </div>
+
+            {/* try 2 */}
           </div>
         </section>
       </Zoom>
@@ -455,7 +491,7 @@ const Main = () => {
               <h1>gallery</h1>
               <span>the princesses of our instagram</span>
             </div>
-            <div className="gallery-list-img">
+            {/* <div className="gallery-list-img">
               <div className="gallery-img">
                 <img src="/img/img-insta/photo1.png" alt="Img" />
               </div>
@@ -480,7 +516,92 @@ const Main = () => {
               <div className="gallery-img">
                 <img src="/img/img-insta/photo8.png" alt="Img" />
               </div>
-            </div>
+            </div> */}
+            <main class="galleryy galleryy__content--flow">
+              <figure>
+                <img
+                  src="img/img-insta/16.jpg"
+                  alt="A light brown, long-haired chihuahua sitting next to three rubber duckies. "
+                  title="Photo by Giacomo Lucarini for Unsplash"
+                />
+                <figcaption class="header__caption" role="presentation">
+                  <h1 class="title title--primary">@rd_makeovers._</h1>
+                  {/* <h1 class="title title--secondary">6 years old</h1> */}
+                </figcaption>
+              </figure>
+
+              <figure>
+                <img
+                  src="img/img-insta/5.jpg"
+                  alt="A light brown puppy standing on a white and tan woven pet bed. "
+                  title="Photo by Sergey Semin for Unsplash"
+                />
+                <figcaption class="header__caption" role="presentation">
+                  <h1 class="title title--primary">@rd_makeovers._</h1>
+                </figcaption>
+              </figure>
+              <figure>
+                <img
+                  src="img/img-insta/12.jpg"
+                  alt="A light brown puppy standing on a white and tan woven pet bed. "
+                  title="Photo by Sergey Semin for Unsplash"
+                />
+                <figcaption class="header__caption" role="presentation">
+                  <h1 class="title title--primary">@rd_makeovers._</h1>
+                </figcaption>
+              </figure>
+
+              <figure>
+                <img
+                  src="img/img-insta/6.jpg"
+                  alt="A light brown puppy standing on a white and tan woven pet bed. "
+                  title="Photo by Sergey Semin for Unsplash"
+                />
+                <figcaption class="header__caption" role="presentation">
+                  <h1 class="title title--primary">@rd_makeovers._</h1>
+                </figcaption>
+              </figure>
+              <figure>
+                <img
+                  src="img/img-insta/7.jpg"
+                  alt="A light brown puppy standing on a white and tan woven pet bed. "
+                  title="Photo by Sergey Semin for Unsplash"
+                />
+                <figcaption class="header__caption" role="presentation">
+                  <h1 class="title title--primary">@rd_makeovers._</h1>
+                </figcaption>
+              </figure>
+              <figure>
+                <img
+                  src="img/img-insta/2.jpg"
+                  alt="A light brown puppy standing on a white and tan woven pet bed. "
+                  title="Photo by Sergey Semin for Unsplash"
+                />
+                <figcaption class="header__caption" role="presentation">
+                  <h1 class="title title--primary">@rd_makeovers._</h1>
+                </figcaption>
+              </figure>
+              <figure>
+                <img
+                  src="img/img-insta/10.jpg"
+                  alt="A light brown puppy standing on a white and tan woven pet bed. "
+                  title="Photo by Sergey Semin for Unsplash"
+                />
+                <figcaption class="header__caption" role="presentation">
+                  <h1 class="title title--primary">@rd_makeovers._</h1>
+                </figcaption>
+              </figure>
+              <figure>
+                <img
+                  src="img/img-insta/20.jpg"
+                  alt="A light brown puppy standing on a white and tan woven pet bed. "
+                  title="Photo by Sergey Semin for Unsplash"
+                />
+                <figcaption class="header__caption" role="presentation">
+                  <h1 class="title title--primary">@rd_makeovers._</h1>
+                </figcaption>
+              </figure>
+            </main>
             {/* <button className="btn">see more</button> */}
           </div>
         </section>
@@ -488,7 +609,7 @@ const Main = () => {
       {/* End Gallery Section */}
       {/* Start Footer Section */}
       <Zoom>
-        <footer className="footer" id="contact">
+        <footer className="footer" id="contact" style={{ marginTop: "-6rem" }}>
           <div className="footer-list">
             <div className="footer-data">
               <h1>
@@ -558,90 +679,6 @@ const Main = () => {
           </div>
         </footer>
       </Zoom>
-      {/* <main class="gallery gallery__content--flow">
-        <figure>
-            <img src="https://cdn.pixabay.com/photo/2016/02/19/15/46/labrador-retriever-1210559__340.jpg"
-                alt="A light brown, long-haired chihuahua sitting next to three rubber duckies. "
-                title="Photo by Giacomo Lucarini for Unsplash"/>
-            <figcaption class="header__caption" role="presentation">
-                <h1 class="title title--primary">Dog: Miss Sunshine</h1>
-                <h2 class="title title--secondary">6 years old</h2>
-            </figcaption>
-        </figure>
-
-        <figure>
-            <img src="https://cdn.pixabay.com/photo/2018/03/27/17/25/cat-3266673__340.jpg"
-                alt="A tabby kitten with green eyes. " title="Photo by Sergey Semin for Unsplash"/>
-            <figcaption class="header__caption" role="presentation">
-                <h1 class="title title--primary">Kitten: Reese</h1>
-                <h2 class="title title--secondary">8 weeks old</h2>
-            </figcaption>
-        </figure>
-
-        <figure>
-            <img src="img/mainpage.jpg"
-                alt="A light brown puppy standing on a white and tan woven pet bed. "
-                title="Photo by Sergey Semin for Unsplash"/>
-            <figcaption class="header__caption" role="presentation">
-                <h1 class="title title--primary">Bunny: Sofia</h1>
-                <h2 class="title title--secondary">3 years old</h2>
-            </figcaption>
-        </figure>
-        
-        <figure>
-            <img src="https://cdn.pixabay.com/photo/2014/11/30/14/11/cat-551554__340.jpg"
-                alt="A light brown puppy standing on a white and tan woven pet bed. "
-                title="Photo by Sergey Semin for Unsplash"/>
-            <figcaption class="header__caption" role="presentation">
-                <h1 class="title title--primary">Kitten: Katie</h1>
-                <h2 class="title title--secondary">1 years old</h2>
-            </figcaption>
-        </figure>
-
-        <figure>
-            <img src="https://cdn.pixabay.com/photo/2017/09/25/13/12/cocker-spaniel-2785074__480.jpg"
-                alt="A light brown puppy standing on a white and tan woven pet bed. "
-                title="Photo by Sergey Semin for Unsplash"/>
-            <figcaption class="header__caption" role="presentation">
-                <h1 class="title title--primary">Puppy: Bruce</h1>
-                <h2 class="title title--secondary">10 weeks old</h2>
-            </figcaption>
-        </figure>
-        <figure>
-            <img src="https://cdn.pixabay.com/photo/2016/11/21/16/59/animal-1846462__340.jpg"
-                alt="A light brown puppy standing on a white and tan woven pet bed. "
-                title="Photo by Sergey Semin for Unsplash"/>
-            <figcaption class="header__caption" role="presentation">
-                <h1 class="title title--primary">Bunny: Jeff</h1>
-                <h2 class="title title--secondary">2 years old</h2>
-            </figcaption>
-        </figure>
-    </main> */}
-      {/* try 2 */}
-      {/* <div class="cards-grid">
-         <div class="card">
-            <img class="card__icon" src="img/img-insta/photo1.png" alt="ux-design"/>
-            <div class="card__body">
-               <h4 class="card__head">UI/UX Design</h4>
-               <p class="card__content">Landing Pages, User Flow, Wireframing, Prototyping, Mobile App Design, Web App</p>
-            </div>
-         </div>
-         <div class="card">
-            <img class="card__icon" src="img/img-insta/photo1.png" alt="development"/>
-            <div class="card__body">
-               <h4 class="card__head">UI/UX Design</h4>
-               <p class="card__content">Landing Pages, User Flow, Wireframing, Prototyping, Mobile App Design, Web App</p>
-            </div>
-         </div>
-         <div class="card">
-            <img class="card__icon" src="img/img-insta/photo1.png" alt="brand"/>
-            <div class="card__body">
-               <h4 class="card__head">UI/UX Design</h4>
-               <p class="card__content">Landing Pages, User Flow, Wireframing, Prototyping, Mobile App Design, Web App</p>
-            </div>
-         </div>
-      </div> */}
-      {/* try 2 */}
       {/*  End Footer Section */}{" "}
     </>
   );

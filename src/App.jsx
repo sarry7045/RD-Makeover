@@ -1,4 +1,5 @@
-import Main from "./Components/Main.jsx";
+import React from "react";
+const Main = React.lazy(() => import("./Components/Main.jsx"));
 
 function App() {
   return (
