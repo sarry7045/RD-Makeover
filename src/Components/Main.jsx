@@ -43,11 +43,11 @@ const Main = () => {
                   services
                 </a>
               </li>
-              <li>
+              {/* <li>
                 <a href="#package" className="nav-link">
                   package
                 </a>
-              </li>
+              </li> */}
               <li>
                 <a href="#gallery" className="nav-link">
                   gallery
@@ -194,19 +194,9 @@ const Main = () => {
                 <div class="cardss">
                   <img
                     class="cardss__icon"
-                    src="img/img-insta/photo6.png"
+                    src="img/img-insta/bridall-bg.png"
                     alt="ux-design"
-                  />
-                  <div class="cardss__body">
-                    <h4 class="cardss__head">Reception Makeup</h4>
-                  </div>
-                </div>
-                <div class="cardss">
-                  <img
-                    class="cardss__icon"
-                    src="img/img-insta/bridal.jpg"
-                    alt="development"
-                    style={{ height: "225px", widht: "220px" }}
+                    style={{ height: "270px", width: "220px" }}
                   />
                   <div class="cardss__body">
                     <h4 class="cardss__head">Bridal Makeup</h4>
@@ -215,33 +205,68 @@ const Main = () => {
                 <div class="cardss">
                   <img
                     class="cardss__icon"
-                    src="img/img-insta/engagement.jpg"
-                    alt="brand"
-                    style={{ height: "225px", widht: "250px" }}
+                    src="img/img-insta/receptionn.jpeg"
+                    alt="development"
+                    style={{ height: "265px", width: "220px" }}
                   />
                   <div class="cardss__body">
-                    <h4 class="cardss__head">Engagement Makeup</h4>
+                    <h4 class="cardss__head">Reception Makeup</h4>
+                  </div>
+                </div>
+                <div class="cardss">
+                  <img
+                    class="cardss__icon"
+                    src="img/img-insta/party.jpeg"
+                    alt="brand"
+                    style={{ height: "270px", width: "240px" }}
+                  />
+                  <div class="cardss__body">
+                    <h4 class="cardss__head">Party Makeup</h4>
                   </div>
                 </div>
               </div>
               <div class="cardss-grid">
                 <div class="cardss">
                   <img
-                    style={{ height: "225px", widht: "220px" }}
+                    style={{ height: "270px", width: "225px" }}
                     class="cardss__icon"
-                    src="img/img-insta/pre-wedding.jpg"
+                    src="img/img-insta/siderr.jpeg"
                     alt="ux-design"
                   />
                   <div class="cardss__body">
-                    <h4 class="cardss__head">Pre Wedding Makeup</h4>
+                    <h4 class="cardss__head">Siders Makeup</h4>
                   </div>
                 </div>
                 <div class="cardss">
                   <img
                     class="cardss__icon"
-                    src="img/img-insta/baby-shower.jpg"
+                    src="img/img-insta/engage.jpeg"
                     alt="development"
-                    style={{ height: "225px", widht: "220px" }}
+                    style={{ height: "275px", width: "230px" }}
+                  />
+                  <div class="cardss__body">
+                    <h4 class="cardss__head">Engagement Makeup</h4>
+                  </div>
+                </div>
+                <div class="cardss">
+                  <img
+                    style={{ height: "270px", width: "250px" }}
+                    class="cardss__icon"
+                    src="img/img-insta/wedding.jpeg"
+                    alt="brand"
+                  />
+                  <div class="cardss__body">
+                    <h4 class="cardss__head">Pre Wedding Makeup</h4>
+                  </div>
+                </div>
+              </div>
+              <div class="cardss-grid">
+                <div class="cardss">
+                  <img
+                    style={{ height: "270px", width: "225px" }}
+                    class="cardss__icon"
+                    src="img/img-insta/baby-shower.jpeg"
+                    alt="ux-design"
                   />
                   <div class="cardss__body">
                     <h4 class="cardss__head">Baby Shower Makeup</h4>
@@ -249,13 +274,24 @@ const Main = () => {
                 </div>
                 <div class="cardss">
                   <img
-                    style={{ height: "220px", widht: "220px" }}
                     class="cardss__icon"
-                    src="img/img-insta/photo2.png"
+                    src="img/img-insta/modeling.jpeg"
+                    alt="development"
+                    style={{ height: "275px", width: "230px" }}
+                  />
+                  <div class="cardss__body">
+                    <h4 class="cardss__head">Modeling Makeup</h4>
+                  </div>
+                </div>
+                <div class="cardss">
+                  <img
+                    style={{ height: "270px", width: "250px" }}
+                    class="cardss__icon"
+                    src="img/img-insta/hairstyle.jpeg"
                     alt="brand"
                   />
                   <div class="cardss__body">
-                    <h4 class="cardss__head">All types of Hairstyles</h4>
+                    <h4 class="cardss__head">All Types of Hairstyle</h4>
                   </div>
                 </div>
               </div>
@@ -267,7 +303,7 @@ const Main = () => {
       </Zoom>
       {/* End Services Section */}
       {/* Start Package Section */}
-      <Zoom>
+      {/* <Zoom>
         <section className="package" id="package">
           <div className="section-title">
             <h1>promotional packages</h1>
@@ -484,17 +520,17 @@ const Main = () => {
             </div>
           </div>
         </section>
-      </Zoom>
+      </Zoom> */}
       {/* End Package Section */}
       {/*  Start Gallery Section  */}
       {/* <Zoom> */}
-        <section className="gallery" id="gallery">
-          <div className="gallery-content">
-            <div className="section-title">
-              <h1>gallery</h1>
-              <span>the princesses of our instagram</span>
-            </div>
-            {/* <div className="gallery-list-img">
+      <section className="gallery" id="gallery" style={{ marginTop: "-4rem" }}>
+        <div className="gallery-content">
+          <div className="section-title">
+            <h1>gallery</h1>
+            <span>the princesses of our instagram</span>
+          </div>
+          {/* <div className="gallery-list-img">
               <div className="gallery-img">
                 <img src="/img/img-insta/photo1.png" alt="Img" />
               </div>
@@ -520,94 +556,94 @@ const Main = () => {
                 <img src="/img/img-insta/photo8.png" alt="Img" />
               </div>
             </div> */}
-            <main class="galleryy galleryy__content--flow">
-              <figure>
-                <img
-                  src="img/img-insta/16.jpg"
-                  alt="A light brown, long-haired chihuahua sitting next to three rubber duckies. "
-                  title="Photo by Giacomo Lucarini for Unsplash"
-                />
-                <figcaption class="header__caption" role="presentation">
-                  <h1 class="title title--primary">@rd_makeovers._</h1>
-                  {/* <h1 class="title title--secondary">6 years old</h1> */}
-                </figcaption>
-              </figure>
+          <main class="galleryy galleryy__content--flow">
+            <figure>
+              <img
+                src="img/img-insta/16.jpg"
+                alt="A light brown, long-haired chihuahua sitting next to three rubber duckies. "
+                title="Photo by Giacomo Lucarini for Unsplash"
+              />
+              <figcaption class="header__caption" role="presentation">
+                <h1 class="title title--primary">@rd_makeovers._</h1>
+                {/* <h1 class="title title--secondary">6 years old</h1> */}
+              </figcaption>
+            </figure>
 
-              <figure>
-                <img
-                  src="img/img-insta/5.jpg"
-                  alt="A light brown puppy standing on a white and tan woven pet bed. "
-                  title="Photo by Sergey Semin for Unsplash"
-                />
-                <figcaption class="header__caption" role="presentation">
-                  <h1 class="title title--primary">@rd_makeovers._</h1>
-                </figcaption>
-              </figure>
-              <figure>
-                <img
-                  src="img/img-insta/12.jpg"
-                  alt="A light brown puppy standing on a white and tan woven pet bed. "
-                  title="Photo by Sergey Semin for Unsplash"
-                />
-                <figcaption class="header__caption" role="presentation">
-                  <h1 class="title title--primary">@rd_makeovers._</h1>
-                </figcaption>
-              </figure>
+            <figure>
+              <img
+                src="img/img-insta/5.jpg"
+                alt="A light brown puppy standing on a white and tan woven pet bed. "
+                title="Photo by Sergey Semin for Unsplash"
+              />
+              <figcaption class="header__caption" role="presentation">
+                <h1 class="title title--primary">@rd_makeovers._</h1>
+              </figcaption>
+            </figure>
+            <figure>
+              <img
+                src="img/img-insta/12.jpg"
+                alt="A light brown puppy standing on a white and tan woven pet bed. "
+                title="Photo by Sergey Semin for Unsplash"
+              />
+              <figcaption class="header__caption" role="presentation">
+                <h1 class="title title--primary">@rd_makeovers._</h1>
+              </figcaption>
+            </figure>
 
-              <figure>
-                <img
-                  src="img/img-insta/6.jpg"
-                  alt="A light brown puppy standing on a white and tan woven pet bed. "
-                  title="Photo by Sergey Semin for Unsplash"
-                />
-                <figcaption class="header__caption" role="presentation">
-                  <h1 class="title title--primary">@rd_makeovers._</h1>
-                </figcaption>
-              </figure>
-              <figure>
-                <img
-                  src="img/img-insta/7.jpg"
-                  alt="A light brown puppy standing on a white and tan woven pet bed. "
-                  title="Photo by Sergey Semin for Unsplash"
-                />
-                <figcaption class="header__caption" role="presentation">
-                  <h1 class="title title--primary">@rd_makeovers._</h1>
-                </figcaption>
-              </figure>
-              <figure>
-                <img
-                  src="img/img-insta/2.jpg"
-                  alt="A light brown puppy standing on a white and tan woven pet bed. "
-                  title="Photo by Sergey Semin for Unsplash"
-                />
-                <figcaption class="header__caption" role="presentation">
-                  <h1 class="title title--primary">@rd_makeovers._</h1>
-                </figcaption>
-              </figure>
-              <figure>
-                <img
-                  src="img/img-insta/10.jpg"
-                  alt="A light brown puppy standing on a white and tan woven pet bed. "
-                  title="Photo by Sergey Semin for Unsplash"
-                />
-                <figcaption class="header__caption" role="presentation">
-                  <h1 class="title title--primary">@rd_makeovers._</h1>
-                </figcaption>
-              </figure>
-              <figure>
-                <img
-                  src="img/img-insta/20.jpg"
-                  alt="A light brown puppy standing on a white and tan woven pet bed. "
-                  title="Photo by Sergey Semin for Unsplash"
-                />
-                <figcaption class="header__caption" role="presentation">
-                  <h1 class="title title--primary">@rd_makeovers._</h1>
-                </figcaption>
-              </figure>
-            </main>
-            {/* <button className="btn">see more</button> */}
-          </div>
-        </section>
+            <figure>
+              <img
+                src="img/img-insta/6.jpg"
+                alt="A light brown puppy standing on a white and tan woven pet bed. "
+                title="Photo by Sergey Semin for Unsplash"
+              />
+              <figcaption class="header__caption" role="presentation">
+                <h1 class="title title--primary">@rd_makeovers._</h1>
+              </figcaption>
+            </figure>
+            <figure>
+              <img
+                src="img/img-insta/7.jpg"
+                alt="A light brown puppy standing on a white and tan woven pet bed. "
+                title="Photo by Sergey Semin for Unsplash"
+              />
+              <figcaption class="header__caption" role="presentation">
+                <h1 class="title title--primary">@rd_makeovers._</h1>
+              </figcaption>
+            </figure>
+            <figure>
+              <img
+                src="img/img-insta/2.jpg"
+                alt="A light brown puppy standing on a white and tan woven pet bed. "
+                title="Photo by Sergey Semin for Unsplash"
+              />
+              <figcaption class="header__caption" role="presentation">
+                <h1 class="title title--primary">@rd_makeovers._</h1>
+              </figcaption>
+            </figure>
+            <figure>
+              <img
+                src="img/img-insta/10.jpg"
+                alt="A light brown puppy standing on a white and tan woven pet bed. "
+                title="Photo by Sergey Semin for Unsplash"
+              />
+              <figcaption class="header__caption" role="presentation">
+                <h1 class="title title--primary">@rd_makeovers._</h1>
+              </figcaption>
+            </figure>
+            <figure>
+              <img
+                src="img/img-insta/20.jpg"
+                alt="A light brown puppy standing on a white and tan woven pet bed. "
+                title="Photo by Sergey Semin for Unsplash"
+              />
+              <figcaption class="header__caption" role="presentation">
+                <h1 class="title title--primary">@rd_makeovers._</h1>
+              </figcaption>
+            </figure>
+          </main>
+          {/* <button className="btn">see more</button> */}
+        </div>
+      </section>
       {/* </Zoom> */}
       {/* End Gallery Section */}
       {/* Start Footer Section */}
@@ -622,9 +658,6 @@ const Main = () => {
                 </a>
               </h1>
               <div className="footer-data-social">
-                {/* <a href="">
-                  <i className="fab fa-facebook"></i>
-                </a> */}
                 <a
                   href="https://www.instagram.com/invites/contact/?i=10jbx16cgw3o6&utm_content=mxqgqk5"
                   target="_blank"
@@ -632,9 +665,6 @@ const Main = () => {
                 >
                   <i className="fab fa-instagram"></i>
                 </a>
-                {/* <a href="">
-                  <i className="fab fa-twitter"></i>
-                </a> */}
               </div>
             </div>
             <div className="footer-data">
