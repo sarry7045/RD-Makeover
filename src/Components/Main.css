@@ -697,7 +697,7 @@ body {
 }
 .service-provide {
   background-color: var(--main-color);
-  border-radius: 0 250px;
+  /* border-radius: 0 250px; */
 }
 
 .cardss {
@@ -754,7 +754,7 @@ body {
   margin-bottom: 0em;
   color: var(--first-color);
 }
-
+/* 
 @media (min-width: 750px) {
   .inner {
     padding: 1em 0;
@@ -782,7 +782,7 @@ body {
   .inner__head {
     --fs-h2: 4rem;
   }
-}
+} */
 
 /* try 1 */
 

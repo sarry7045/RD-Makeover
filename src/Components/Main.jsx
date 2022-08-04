@@ -189,7 +189,6 @@ const Main = () => {
             </div> */}
             {/* try 2 */}
             <div className="service-provide">
-              {" "}
               <div class="cardss-grid" style={{ marginTop: "15px" }}>
                 <div class="cardss">
                   <img
@@ -260,46 +259,54 @@ const Main = () => {
                   </div>
                 </div>
               </div>
-              <div class="cardss-grid">
-                <div class="cardss">
-                  <img
-                    style={{ height: "270px", width: "225px" }}
-                    class="cardss__icon"
-                    src="img/img-insta/baby-shower.jpeg"
-                    alt="ux-design"
-                  />
-                  <div class="cardss__body">
-                    <h4 class="cardss__head">Baby Shower Makeup</h4>
-                  </div>
-                </div>
-                <div class="cardss">
-                  <img
-                    class="cardss__icon"
-                    src="img/img-insta/modeling.jpeg"
-                    alt="development"
-                    style={{ height: "275px", width: "230px" }}
-                  />
-                  <div class="cardss__body">
-                    <h4 class="cardss__head">Modeling Makeup</h4>
-                  </div>
-                </div>
-                <div class="cardss">
-                  <img
-                    style={{ height: "270px", width: "250px" }}
-                    class="cardss__icon"
-                    src="img/img-insta/hairstyle.jpeg"
-                    alt="brand"
-                  />
-                  <div class="cardss__body">
-                    <h4 class="cardss__head">All Types of Hairstyle</h4>
-                  </div>
-                </div>
-              </div>
             </div>
 
             {/* try 2 */}
           </div>
         </section>
+        {/* <section> */}
+
+        {/* try 2 */}
+        <div className="service-provide" style={{ marginTop: "-7rem" }}>
+          <div class="cardss-grid">
+            <div class="cardss">
+              <img
+                style={{ height: "270px", width: "225px" }}
+                class="cardss__icon"
+                src="img/img-insta/baby-shower.jpeg"
+                alt="ux-design"
+              />
+              <div class="cardss__body">
+                <h4 class="cardss__head">Baby Shower Makeup</h4>
+              </div>
+            </div>
+            <div class="cardss">
+              <img
+                class="cardss__icon"
+                src="img/img-insta/modeling.jpeg"
+                alt="development"
+                style={{ height: "275px", width: "230px" }}
+              />
+              <div class="cardss__body">
+                <h4 class="cardss__head">Modeling Makeup</h4>
+              </div>
+            </div>
+            <div class="cardss">
+              <img
+                style={{ height: "270px", width: "250px" }}
+                class="cardss__icon"
+                src="img/img-insta/hairstyle.jpeg"
+                alt="brand"
+              />
+              <div class="cardss__body">
+                <h4 class="cardss__head">All Types of Hairstyle</h4>
+              </div>
+            </div>
+          </div>
+        </div>
+        {/* try 2 */}
+
+        {/* </section> */}
       </Zoom>
       {/* End Services Section */}
       {/* Start Package Section */}
@@ -524,7 +531,7 @@ const Main = () => {
       {/* End Package Section */}
       {/*  Start Gallery Section  */}
       {/* <Zoom> */}
-      <section className="gallery" id="gallery" style={{ marginTop: "-4rem" }}>
+      <section className="gallery" id="gallery" style={{ marginTop: "-1rem" }}>
         <div className="gallery-content">
           <div className="section-title">
             <h1>gallery</h1>
@@ -559,7 +566,7 @@ const Main = () => {
           <main class="galleryy galleryy__content--flow">
             <figure>
               <img
-                src="img/img-insta/16.jpg"
+                src="img/img-insta/5.jpg"
                 alt="A light brown, long-haired chihuahua sitting next to three rubber duckies. "
                 title="Photo by Giacomo Lucarini for Unsplash"
               />
@@ -571,7 +578,7 @@ const Main = () => {
 
             <figure>
               <img
-                src="img/img-insta/5.jpg"
+                src="img/img-insta/image4.jpg"
                 alt="A light brown puppy standing on a white and tan woven pet bed. "
                 title="Photo by Sergey Semin for Unsplash"
               />
@@ -581,7 +588,7 @@ const Main = () => {
             </figure>
             <figure>
               <img
-                src="img/img-insta/12.jpg"
+                src="img/img-insta/10.jpg"
                 alt="A light brown puppy standing on a white and tan woven pet bed. "
                 title="Photo by Sergey Semin for Unsplash"
               />
@@ -602,6 +609,26 @@ const Main = () => {
             </figure>
             <figure>
               <img
+                src="img/img-insta/image7.jpeg"
+                alt="A light brown puppy standing on a white and tan woven pet bed. "
+                title="Photo by Sergey Semin for Unsplash"
+              />
+              <figcaption class="header__caption" role="presentation">
+                <h1 class="title title--primary">@rd_makeovers._</h1>
+              </figcaption>
+            </figure>
+            <figure>
+              <img
+                src="img/img-insta/image5.jpg"
+                alt="A light brown puppy standing on a white and tan woven pet bed. "
+                title="Photo by Sergey Semin for Unsplash"
+              />
+              <figcaption class="header__caption" role="presentation">
+                <h1 class="title title--primary">@rd_makeovers._</h1>
+              </figcaption>
+            </figure>
+            <figure>
+              <img
                 src="img/img-insta/7.jpg"
                 alt="A light brown puppy standing on a white and tan woven pet bed. "
                 title="Photo by Sergey Semin for Unsplash"
@@ -612,27 +639,7 @@ const Main = () => {
             </figure>
             <figure>
               <img
-                src="img/img-insta/2.jpg"
-                alt="A light brown puppy standing on a white and tan woven pet bed. "
-                title="Photo by Sergey Semin for Unsplash"
-              />
-              <figcaption class="header__caption" role="presentation">
-                <h1 class="title title--primary">@rd_makeovers._</h1>
-              </figcaption>
-            </figure>
-            <figure>
-              <img
-                src="img/img-insta/10.jpg"
-                alt="A light brown puppy standing on a white and tan woven pet bed. "
-                title="Photo by Sergey Semin for Unsplash"
-              />
-              <figcaption class="header__caption" role="presentation">
-                <h1 class="title title--primary">@rd_makeovers._</h1>
-              </figcaption>
-            </figure>
-            <figure>
-              <img
-                src="img/img-insta/20.jpg"
+                src="img/img-insta/image2.jpg"
                 alt="A light brown puppy standing on a white and tan woven pet bed. "
                 title="Photo by Sergey Semin for Unsplash"
               />
