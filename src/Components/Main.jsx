@@ -24,12 +24,12 @@ const Main = () => {
         <div className="navbar">
           <div className="logo">
             {/* <img src="/img/logo.svg" /> */}
-            <h2>RD-Makeovers</h2>
+            <h2> RD-Makeovers</h2>
           </div>
           <nav className="nav-menu" id="nav-menu">
             <ul className="nav-list">
               <li>
-                <a href="#" className="nav-link active">
+                <a href="/" className="nav-link active">
                   home
                 </a>
               </li>
@@ -198,27 +198,29 @@ const Main = () => {
                     alt="ux-design"
                   />
                   <div class="cardss__body">
-                    <h4 class="cardss__head">All types of Makeups</h4>
+                    <h4 class="cardss__head">Reception Makeup</h4>
                   </div>
                 </div>
                 <div class="cardss">
                   <img
                     class="cardss__icon"
-                    src="img/img-insta/photo2.png"
+                    src="img/img-insta/bridal.jpg"
                     alt="development"
+                    style={{ height: "225px", widht: "220px" }}
                   />
                   <div class="cardss__body">
-                    <h4 class="cardss__head">All types of Hairstyles</h4>
+                    <h4 class="cardss__head">Bridal Makeup</h4>
                   </div>
                 </div>
                 <div class="cardss">
                   <img
                     class="cardss__icon"
-                    src="img/img-insta/photo4.png"
+                    src="img/img-insta/engagement.jpg"
                     alt="brand"
+                    style={{ height: "225px", widht: "250px" }}
                   />
                   <div class="cardss__body">
-                    <h4 class="cardss__head">Haircut</h4>
+                    <h4 class="cardss__head">Engagement Makeup</h4>
                   </div>
                 </div>
               </div>
@@ -227,32 +229,33 @@ const Main = () => {
                   <img
                     style={{ height: "225px", widht: "220px" }}
                     class="cardss__icon"
-                    src="img/img-insta/14.jpg"
+                    src="img/img-insta/pre-wedding.jpg"
                     alt="ux-design"
                   />
                   <div class="cardss__body">
-                    <h4 class="cardss__head">Eyebrow Design</h4>
+                    <h4 class="cardss__head">Pre Wedding Makeup</h4>
                   </div>
                 </div>
                 <div class="cardss">
                   <img
                     class="cardss__icon"
-                    src="img/img-insta/photo8.png"
+                    src="img/img-insta/baby-shower.jpg"
                     alt="development"
+                    style={{ height: "225px", widht: "220px" }}
                   />
                   <div class="cardss__body">
-                    <h4 class="cardss__head">Skin Cleansing</h4>
+                    <h4 class="cardss__head">Baby Shower Makeup</h4>
                   </div>
                 </div>
                 <div class="cardss">
                   <img
                     style={{ height: "220px", widht: "220px" }}
                     class="cardss__icon"
-                    src="img/img-insta/21.jpg"
+                    src="img/img-insta/photo2.png"
                     alt="brand"
                   />
                   <div class="cardss__body">
-                    <h4 class="cardss__head">Manicure</h4>
+                    <h4 class="cardss__head">All types of Hairstyles</h4>
                   </div>
                 </div>
               </div>
@@ -484,7 +487,7 @@ const Main = () => {
       </Zoom>
       {/* End Package Section */}
       {/*  Start Gallery Section  */}
-      <Zoom>
+      {/* <Zoom> */}
         <section className="gallery" id="gallery">
           <div className="gallery-content">
             <div className="section-title">
@@ -605,7 +608,7 @@ const Main = () => {
             {/* <button className="btn">see more</button> */}
           </div>
         </section>
-      </Zoom>
+      {/* </Zoom> */}
       {/* End Gallery Section */}
       {/* Start Footer Section */}
       <Zoom>
