@@ -2,6 +2,7 @@ import React from "react";
 import "../Components/Main.css";
 import Zoom from "react-reveal/Zoom";
 import { Helmet } from "react-helmet";
+import { motion } from "framer-motion";
 
 const Main = () => {
   return (
@@ -21,7 +22,12 @@ const Main = () => {
         <meta property="og:site_name" content="RD Makeover" />
       </Helmet>
       <header className="header" id="header">
-        <div className="navbar">
+        <motion.div
+          initial={{ opacity: 0 }}
+          animate={{ opacity: 1 }}
+          transition={{ delay: 0.5, duration: 1 }}
+          className="navbar"
+        >
           <div className="logo">
             {/* <img src="/img/logo.svg" /> */}
             <h2> RD-Makeovers</h2>
@@ -63,10 +69,15 @@ const Main = () => {
           <div className="nav-toggle" id="nav-toggle">
             <i className="fas fa-bars"></i>
           </div>
-        </div>
+        </motion.div>
       </header>
       {/* Start Home Section */}
-      <section className="home">
+      <motion.section
+        initial={{ opacity: 0 }}
+        animate={{ opacity: 1 }}
+        transition={{ delay: 0.8, duration: 1 }}
+        className="home"
+      >
         <div className="container">
           <div className="home-img">
             <img src="/img/home-img.png" alt="img" />
@@ -88,7 +99,7 @@ const Main = () => {
             </a>
           </div>
         </div>
-      </section>
+      </motion.section>
       {/* End Home Section */}
       {/* Start About Section */}
       <Zoom>
@@ -563,7 +574,12 @@ const Main = () => {
                 <img src="/img/img-insta/photo8.png" alt="Img" />
               </div>
             </div> */}
-          <main class="galleryy galleryy__content--flow">
+          <motion.main
+            initial={{ opacity: 0 }}
+            animate={{ opacity: 1 }}
+            transition={{ delay: 0.5, duration: 1 }}
+            class="galleryy galleryy__content--flow"
+          >
             <figure>
               <img
                 src="img/img-insta/5.jpg"
@@ -647,7 +663,7 @@ const Main = () => {
                 <h1 class="title title--primary">@rd_makeovers._</h1>
               </figcaption>
             </figure>
-          </main>
+          </motion.main>
           {/* <button className="btn">see more</button> */}
         </div>
       </section>
