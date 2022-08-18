@@ -10,7 +10,7 @@
   --white-color: #fff;
   --black-color: #151515;
 
-  --font-cursive: "Great Vibes", cursive;
+  --font-cursive: "Great Vibes";
   --font-body: "Montserrat", sans-serif;
 
   --big-font-size: 3rem;
@@ -208,7 +208,7 @@ body {
 .about {
   width: 100%;
   padding: 7rem 0;
-  background-image: url(img/arabesque-left-bottom.svg);
+  background-image: url(Images/bottom-background.svg);
   background-repeat: no-repeat;
   background-position: bottom left;
   z-index: -1;
@@ -281,7 +281,7 @@ body {
 .services {
   width: 100%;
   padding: 7rem 0;
-  background-image: url(img/arabesque-left-top.svg);
+  background-image: url(Images/top-background.svg);
   background-repeat: no-repeat;
   background-position: top left;
   z-index: -1;

@@ -80,7 +80,7 @@ const Main = () => {
       >
         <div className="container">
           <div className="home-img">
-            <img src="/img/home-img.png" alt="img" />
+            <img src="Images/home-img.png" alt="homepage" />
             {/* <img src="/img/mainpage.jpg" /> */}
           </div>
           <div className="home-content">
@@ -112,7 +112,7 @@ const Main = () => {
             <div className="about-detail">
               <div className="about-detail-content">
                 <div className="about-img">
-                  <img src="/img/img-insta/11.jpeg" alt="img" />
+                  <img src="Images/rdmakeovers.jpeg" alt="rdmakeovers" />
                 </div>
                 <div className="about-description">
                   <p>
@@ -204,8 +204,8 @@ const Main = () => {
                 <div class="cardss">
                   <img
                     class="cardss__icon"
-                    src="img/img-insta/bridall-bg.png"
-                    alt="ux-design"
+                    src="Images/bridalmakeup.png"
+                    alt="bridalmakeup"
                     style={{ height: "270px", width: "220px" }}
                   />
                   <div class="cardss__body">
@@ -215,8 +215,8 @@ const Main = () => {
                 <div class="cardss">
                   <img
                     class="cardss__icon"
-                    src="img/img-insta/receptionn.jpeg"
-                    alt="development"
+                    src="Images/receptionmakeup.jpeg"
+                    alt="receptionmakeup"
                     style={{ height: "265px", width: "220px" }}
                   />
                   <div class="cardss__body">
@@ -226,8 +226,8 @@ const Main = () => {
                 <div class="cardss">
                   <img
                     class="cardss__icon"
-                    src="img/img-insta/party.jpeg"
-                    alt="brand"
+                    src="Images/partymakeup.jpeg"
+                    alt="partymakeup"
                     style={{ height: "270px", width: "240px" }}
                   />
                   <div class="cardss__body">
@@ -240,8 +240,8 @@ const Main = () => {
                   <img
                     style={{ height: "270px", width: "225px" }}
                     class="cardss__icon"
-                    src="img/img-insta/siderr.jpeg"
-                    alt="ux-design"
+                    src="Images/sidermakeup.jpeg"
+                    alt="sidermakeup"
                   />
                   <div class="cardss__body">
                     <h4 class="cardss__head">Siders Makeup</h4>
@@ -250,8 +250,8 @@ const Main = () => {
                 <div class="cardss">
                   <img
                     class="cardss__icon"
-                    src="img/img-insta/engage.jpeg"
-                    alt="development"
+                    src="Images/engagementmakeup.jpeg"
+                    alt="engagementmakeup"
                     style={{ height: "275px", width: "230px" }}
                   />
                   <div class="cardss__body">
@@ -262,8 +262,8 @@ const Main = () => {
                   <img
                     style={{ height: "270px", width: "250px" }}
                     class="cardss__icon"
-                    src="img/img-insta/wedding.jpeg"
-                    alt="brand"
+                    src="Images/weddingmakeup.jpeg"
+                    alt="weddingmakeup"
                   />
                   <div class="cardss__body">
                     <h4 class="cardss__head">Pre Wedding Makeup</h4>
@@ -284,8 +284,8 @@ const Main = () => {
               <img
                 style={{ height: "270px", width: "225px" }}
                 class="cardss__icon"
-                src="img/img-insta/baby-shower.jpeg"
-                alt="ux-design"
+                src="Images/babyshowermakeup.jpeg"
+                alt="babyshowermakeup"
               />
               <div class="cardss__body">
                 <h4 class="cardss__head">Baby Shower Makeup</h4>
@@ -294,8 +294,8 @@ const Main = () => {
             <div class="cardss">
               <img
                 class="cardss__icon"
-                src="img/img-insta/modeling.jpeg"
-                alt="development"
+                src="Images/modelingmakeup.jpeg"
+                alt="modelingmakeup"
                 style={{ height: "275px", width: "230px" }}
               />
               <div class="cardss__body">
@@ -306,8 +306,8 @@ const Main = () => {
               <img
                 style={{ height: "270px", width: "250px" }}
                 class="cardss__icon"
-                src="img/img-insta/hairstyle.jpeg"
-                alt="brand"
+                src="Images/hairstyle.jpeg"
+                alt="hairstyle"
               />
               <div class="cardss__body">
                 <h4 class="cardss__head">All Types of Hairstyle</h4>
@@ -550,28 +550,28 @@ const Main = () => {
           </div>
           {/* <div className="gallery-list-img">
               <div className="gallery-img">
-                <img src="/img/img-insta/photo1.png" alt="Img" />
+                <img src="Images/photo1.png" alt="Img" />
               </div>
               <div className="gallery-img">
-                <img src="/img/img-insta/photo2.png" alt="Img" />
+                <img src="Images/photo2.png" alt="Img" />
               </div>
               <div className="gallery-img">
-                <img src="/img/img-insta/photo3.png" alt="Img" />
+                <img src="Images/photo3.png" alt="Img" />
               </div>
               <div className="gallery-img">
-                <img src="/img/img-insta/photo4.png" alt="Img" />
+                <img src="Images/photo4.png" alt="Img" />
               </div>
               <div className="gallery-img">
-                <img src="/img/img-insta/photo5.png" alt="Img" />
+                <img src="Images/photo5.png" alt="Img" />
               </div>
               <div className="gallery-img">
-                <img src="/img/img-insta/photo6.png" alt="Img" />
+                <img src="Images/photo6.png" alt="Img" />
               </div>
               <div className="gallery-img">
-                <img src="/img/img-insta/photo7.png" alt="Img" />
+                <img src="Images/photo7.png" alt="Img" />
               </div>
               <div className="gallery-img">
-                <img src="/img/img-insta/photo8.png" alt="Img" />
+                <img src="Images/photo8.png" alt="Img" />
               </div>
             </div> */}
           <motion.main
@@ -582,8 +582,8 @@ const Main = () => {
           >
             <figure>
               <img
-                src="img/img-insta/5.jpg"
-                alt="A light brown, long-haired chihuahua sitting next to three rubber duckies. "
+                src="Images/engagementmakeupp.jpg"
+                alt="engagementmakeupp"
                 title="Photo by Giacomo Lucarini for Unsplash"
               />
               <figcaption class="header__caption" role="presentation">
@@ -594,8 +594,8 @@ const Main = () => {
 
             <figure>
               <img
-                src="img/img-insta/image4.jpg"
-                alt="A light brown puppy standing on a white and tan woven pet bed. "
+                src="Images/bridalmakeupp.jpg"
+                alt="bridalmakeupp"
                 title="Photo by Sergey Semin for Unsplash"
               />
               <figcaption class="header__caption" role="presentation">
@@ -604,8 +604,8 @@ const Main = () => {
             </figure>
             <figure>
               <img
-                src="img/img-insta/10.jpg"
-                alt="A light brown puppy standing on a white and tan woven pet bed. "
+                src="Images/babyshowermakeupp.jpg"
+                alt="babyshowermakeupp"
                 title="Photo by Sergey Semin for Unsplash"
               />
               <figcaption class="header__caption" role="presentation">
@@ -615,8 +615,8 @@ const Main = () => {
 
             <figure>
               <img
-                src="img/img-insta/6.jpg"
-                alt="A light brown puppy standing on a white and tan woven pet bed. "
+                src="Images/receptionmakeupp.jpg"
+                alt="receptionmakeupp"
                 title="Photo by Sergey Semin for Unsplash"
               />
               <figcaption class="header__caption" role="presentation">
@@ -625,8 +625,8 @@ const Main = () => {
             </figure>
             <figure>
               <img
-                src="img/img-insta/image7.jpeg"
-                alt="A light brown puppy standing on a white and tan woven pet bed. "
+                src="Images/eyebrow.jpeg"
+                alt="eyebrow"
                 title="Photo by Sergey Semin for Unsplash"
               />
               <figcaption class="header__caption" role="presentation">
@@ -635,8 +635,8 @@ const Main = () => {
             </figure>
             <figure>
               <img
-                src="img/img-insta/image5.jpg"
-                alt="A light brown puppy standing on a white and tan woven pet bed. "
+                src="Images/partymakeupp.jpg"
+                alt="partymakeupp"
                 title="Photo by Sergey Semin for Unsplash"
               />
               <figcaption class="header__caption" role="presentation">
@@ -645,8 +645,8 @@ const Main = () => {
             </figure>
             <figure>
               <img
-                src="img/img-insta/7.jpg"
-                alt="A light brown puppy standing on a white and tan woven pet bed. "
+                src="Images/partymakeuppp.jpg"
+                alt="partymakeuppp"
                 title="Photo by Sergey Semin for Unsplash"
               />
               <figcaption class="header__caption" role="presentation">
@@ -655,8 +655,8 @@ const Main = () => {
             </figure>
             <figure>
               <img
-                src="img/img-insta/image2.jpg"
-                alt="A light brown puppy standing on a white and tan woven pet bed. "
+                src="Images/couple.jpg"
+                alt="couple"
                 title="Photo by Sergey Semin for Unsplash"
               />
               <figcaption class="header__caption" role="presentation">
@@ -693,7 +693,7 @@ const Main = () => {
             <div className="footer-data">
               <h2>address</h2>
               <p>
-                Yagnik Nagar, Abdul Pada, Near Network Building, Amboli, Andheri
+                Yagnik Nagar, Near Network Building, Amboli, Andheri
                 (W) 400058
               </p>
             </div>
