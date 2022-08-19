@@ -700,7 +700,7 @@ const Main = () => {
             <div className="footer-data">
               <h2>We Opened</h2>
               <p>
-                Everyday <br /> From 10.00 am To 8.00 pm
+                Everyday <br /> From 10:00 am To 8:00 pm
               </p>
             </div>
             <div className="footer-data">
